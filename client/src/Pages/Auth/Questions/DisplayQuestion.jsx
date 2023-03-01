@@ -1,7 +1,7 @@
-import React from 'react'
-import LeftSidebar from '../../../components/LeftSidebar/LeftSidebar'
-import RightSidebar from '../../../components/RightSidebar/RightSidebar'
-import QuestionsDetails from './QuestionsDetails'
+import React from 'react' ;
+import LeftSidebar from '../../../components/LeftSidebar/LeftSidebar' ;
+import RightSidebar from '../../../components/RightSidebar/RightSidebar' ;
+import QuestionsDetails from './QuestionsDetails' ;
 
 const DisplayQuestion = () => {
   return (
@@ -14,6 +14,6 @@ const DisplayQuestion = () => {
       </div>     
     </div>
   )
-}
+};
 
-export default DisplayQuestion
+export default DisplayQuestion;

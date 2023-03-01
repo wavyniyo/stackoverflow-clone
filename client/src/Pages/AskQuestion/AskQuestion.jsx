@@ -1,18 +1,18 @@
-import React ,{useState} from 'react'
-
+import React ,{useState} from 'react' ;
 import { useDispatch , useSelector } from 'react-redux'
-import { useNavigate } from 'react-router-dom'
-import './AskQuestion.css'
-import {askQuestion} from '../../actions/question'
+import { useNavigate } from 'react-router-dom' ;
+
+import './AskQuestion.css' ;
+import {askQuestion} from '../../actions/question' ;
 
 const AskQuestion = () => {
-    const [ questionTitle, setQuestionTitle ] =useState('')
-    const [ questionBody, setQuestionBody ] =useState('')
-    const [ questionTags, setQuestionTags ] =useState('')
+    const [ questionTitle, setQuestionTitle ] =useState('') ;
+    const [ questionBody, setQuestionBody ] =useState('') ;
+    const [ questionTags, setQuestionTags ] =useState('') ;
 
-    const dispatch= useDispatch()
-    const User= useSelector((state) =>(state.currentUserReducer))
-    const navigate= useNavigate()
+    const dispatch= useDispatch();
+    const User= useSelector((state) => state.currentUserReducer);
+    const navigate= useNavigate();
 
     const handleSubmit =(e) =>{
       e.preventDefault()

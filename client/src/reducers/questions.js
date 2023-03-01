@@ -8,8 +8,8 @@ const questionsReducer =(state ={data: null}, action) =>{
             return{ ...state }
 
         default:
-            return state
+            return state ;
     }
 }
 
-export default questionsReducer 
+export default questionsReducer  ;

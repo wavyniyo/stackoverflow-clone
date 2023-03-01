@@ -6,7 +6,7 @@ import './Users.css'
 
 const UsersList = () => {
 
-    const users = useSelector((state) => state.usersReducer)
+    const users = useSelector((state) => state.usersReducer);
   return (
     <div className='user-list-container'>
       {
@@ -15,7 +15,7 @@ const UsersList = () => {
         ))
       }
     </div>
-  )
-}
+  );
+};
 
 export default UsersList ;

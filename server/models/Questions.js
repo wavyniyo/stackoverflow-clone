@@ -1,4 +1,4 @@
-import mongoose from 'mongoose'
+import mongoose from 'mongoose' ;
 
 const QuestionSchema= mongoose.Schema({
     questionTitle: {type: String ,required: "Question must have a title"},
@@ -9,13 +9,13 @@ const QuestionSchema= mongoose.Schema({
     downVote: {type: [String], default:[]},
     userPosted: {type: String, required:"Question must have an author"},
     userId: {type: String},
-    postedOn: {type: Date, default: Date.now},
+    askedOn: {type: Date, default: Date.now},
     answer:[{
         answerBody: String,
         userAnswered : String,
         userId: String,
         answeredOn: {type: Date, default: Date.now},
     }]
-})
+});
 
-export default mongoose.model("Question",QuestionSchema)
+export default mongoose.model("Question",QuestionSchema);

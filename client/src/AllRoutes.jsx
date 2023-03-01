@@ -1,14 +1,14 @@
-import React from 'react'
-import {Routes , Route} from 'react-router-dom'
+import React from 'react' ;
+import {Routes , Route} from 'react-router-dom' ;
 
-import Home from './Pages/Auth/Home/Home'
-import Auth from './Pages/Auth/Auth'
-import Questions from './Pages/Auth/Questions/Questions'
-import AskQuestion from './Pages/AskQuestion/AskQuestion'
-import DisplayQuestion from './Pages/Auth/Questions/DisplayQuestion'
-import Tags from './Pages/Tags/Tags'
-import Users from './Pages/Users/Users'
-import UserProfile from './Pages/UserProfile/UserProfile'
+import Home from './Pages/Auth/Home/Home' ;
+import Auth from './Pages/Auth/Auth' ;
+import Questions from './Pages/Auth/Questions/Questions' ;
+import AskQuestion from './Pages/AskQuestion/AskQuestion' ;
+import DisplayQuestion from './Pages/Auth/Questions/DisplayQuestion' ;
+import Tags from './Pages/Tags/Tags' ;
+import Users from './Pages/Users/Users' ;
+import UserProfile from './Pages/UserProfile/UserProfile' ;
 
 
 const AllRoutes = () => {

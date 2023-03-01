@@ -1,5 +1,5 @@
-import jwt from 'jsonwebtoken'
-import bcrypt from 'bcryptjs'
+import jwt from 'jsonwebtoken' ;
+import bcrypt from 'bcryptjs' ;
 
 import users from '../models/auth.js'
 
@@ -19,7 +19,7 @@ export const signup = async(req , res) => {
    } catch(error){
     res.status(500).json("Something went wrong...")
    }
-}
+};
 
 export const login = async(req , res) => {
     const { email, password } = req.body ;
@@ -40,4 +40,4 @@ export const login = async(req , res) => {
     } catch (error) {
         res.status(500).json("Something went wrong...")
     }
-}
+};

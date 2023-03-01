@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
-import LeftSidebar from '../../../components/LeftSidebar/LeftSidebar'
-import RightSidebar from '../../../components/RightSidebar/RightSidebar'
-import HomeMainbar from '../../../components/HomeMainbar/HomeMainbar'
+import LeftSidebar from '../../../components/LeftSidebar/LeftSidebar';
+import RightSidebar from '../../../components/RightSidebar/RightSidebar';
+import HomeMainbar from '../../../components/HomeMainbar/HomeMainbar';
 
 
 
@@ -17,6 +17,6 @@ const Questions = () => {
       </div>  
     </div>
   )
-}
+};
 
-export default Questions
+export default Questions;

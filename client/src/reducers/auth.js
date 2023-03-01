@@ -9,6 +9,6 @@ const authReducer = (state= {data :null}, action) => {
         default:
             return state ;
     }    
-}
+};
 
-export default authReducer
+export default authReducer;

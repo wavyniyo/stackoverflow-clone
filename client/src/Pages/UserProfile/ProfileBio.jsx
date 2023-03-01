@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react' ;
 
 const ProfileBio = ({currentProfile}) => {
   return (
@@ -32,7 +32,7 @@ const ProfileBio = ({currentProfile}) => {
         }
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default ProfileBio ;

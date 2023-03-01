@@ -1,7 +1,7 @@
-import React from 'react' 
-import  { Link }from 'react-router-dom'
+import React from 'react'  ;
+import  { Link }from 'react-router-dom' ;
 
-import moment from 'moment'
+import moment from 'moment' ;
 
 const Questions = ({question}) => {
   return (

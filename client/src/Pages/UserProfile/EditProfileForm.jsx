@@ -12,9 +12,9 @@ const EditProfileForm = ({ currentUser,setSwitch }) => {
     const handleSubmit = (e) => {
         e.preventDefault() ;
         if(tags.length === 0){
-            dispatch(updateProfile(currentUser?.result?._id,{name , about , tags: currentUser?.result?.tags}))
+            dispatch(updateProfile(currentUser?.result?._id,{name , about , tags: currentUser?.result?.tags}));
         } else{
-            dispatch(updateProfile(currentUser?.result?._id,{name , about , tags}))
+            dispatch(updateProfile(currentUser?.result?._id,{name , about , tags}));
         }
         setSwitch(false) ; 
         
@@ -42,11 +42,11 @@ const EditProfileForm = ({ currentUser,setSwitch }) => {
                 <p>Add tags separated by 1 space </p>
                 <input type="text" id="tags" onChange={(e) => setTags(e.target.value.split(' '))} />
             </label> <br />
-            <input type='submit' value='Save Your Profile' className='user-submit-btn' /> 
+            <input type='submit' value='Save Profile' className='user-submit-btn' /> 
             <button type='button' className='user-cancel-btn' onClick={() => setSwitch(false)}> Cancel </button>
         </form>
     </div>
   )
-}
+};
 
 export default EditProfileForm ;

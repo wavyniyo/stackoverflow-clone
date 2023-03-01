@@ -1,13 +1,13 @@
-import React from 'react'
+import React from 'react' ;
 import { useLocation } from 'react-router-dom'
 
 import "./Users.css"
-import LeftSidebar from "../../components/LeftSidebar/LeftSidebar"
-import UsersList from './UsersList'
+import LeftSidebar from "../../components/LeftSidebar/LeftSidebar" ;
+import UsersList from './UsersList' ;
 
 const Users = () => {
 
-  const location = useLocation()
+  const location = useLocation();
 
   return (
     <div className='home-container-1'>

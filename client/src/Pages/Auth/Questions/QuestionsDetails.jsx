@@ -1,11 +1,11 @@
-import React, {useState} from 'react'
-import  { useParams, Link , useNavigate, useLocation} from 'react-router-dom'
+import React, {useState} from 'react' ;
+import  { useParams, Link , useNavigate, useLocation} from 'react-router-dom' ;
 import moment from 'moment'
-import copy from 'copy-to-clipboard'
+import copy from 'copy-to-clipboard' ;
 
 import upvote from '../../../assets/sort-up.svg'
 import downvote from '../../../assets/sort-down.svg'
-import './Questions.css'
+import './Questions.css';
 
 import Avatar from '../../../components/Avatar/Avatar'
 import DisplayAnswer from './DisplayAnswer'
@@ -15,7 +15,7 @@ import { postAnswer ,deleteQuestion,voteQuestion } from '../../../actions/questi
 const QuestionsDetails = () => {
 
   const { id } = useParams() ;
-  const questionsList = useSelector(state => state.questionsReducer)
+  const questionsList = useSelector(state => state.questionsReducer);
   //console.log(questionsList)
   //console.log(id)
 
@@ -72,15 +72,15 @@ const QuestionsDetails = () => {
 //     }]
 // }]
 
-  const [Answer, setAnswer] = useState('')
-  const Navigate = useNavigate()
-  const dispatch= useDispatch()
-  const User = useSelector((state) =>(state.currentUserReducer) )
-  const location =useLocation()
-  const url ='http://localhost:3000'
+  const [Answer, setAnswer] = useState('');
+  const Navigate = useNavigate();
+  const dispatch= useDispatch();
+  const User = useSelector((state) =>(state.currentUserReducer) );
+  const location =useLocation();
+  const url ='http://localhost:3000' ;
 
   const handlePostAns = (e,answerLength) =>  {
-      e.preventDefault()
+      e.preventDefault();
       if(User === null){
         alert('Login and Signup to answer a question')
         Navigate('/Auth')
@@ -88,13 +88,13 @@ const QuestionsDetails = () => {
         if(Answer === ''){
           alert('Enter an answer before submitting')
         }else{
-          dispatch(postAnswer({ id, noOfAnswers: answerLength + 1, answerBody: Answer ,userAnswered: User.result.name , userId: User.result._id}))
+          dispatch(postAnswer({ id, noOfAnswers: answerLength + 1, answerBody: Answer ,userAnswered: User.result.name , userId: User.result._id}));
         }
       }
-  }
+  };
   
   const handleShare = () => {
-    copy(url+location.pathname)
+    copy(url+location.pathname);
     alert('Copied url :'+url+location.pathname)
   }
 
@@ -114,8 +114,9 @@ const QuestionsDetails = () => {
   return (
     <div className='question-details-page'>
        {
-        questionsList.data === null ?
-        <h1>Loading...</h1> :
+        questionsList.data === null ? (
+        <h1>Loading...</h1> ): 
+       
         <>
           {
             questionsList.data.filter(question => question._id === id).map(question => (

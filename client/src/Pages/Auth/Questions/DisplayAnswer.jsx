@@ -1,8 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import Avatar from '../../../components/Avatar/Avatar'
+import { Link } from 'react-router-dom' ;
+import Avatar from '../../../components/Avatar/Avatar' ;
 
-import moment from 'moment'
+import moment from 'moment' ;
 
 const DisplayAnswer = ({question, handleShare}) => {
   return (
