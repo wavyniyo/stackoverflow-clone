@@ -33,7 +33,7 @@
 
 .display-question-container{
     min-height: 80px;
-    width: 105%;
+    width: 100%;
     display: flex;
     align-items: center;
     background-color: #fdf7e2;
