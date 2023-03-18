@@ -36,8 +36,8 @@
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: #fdf7e2;
-    border-bottom: solid 1px #edeff0;
+    background-color:  #fdf7e2;
+    border-bottom: solid 1px #f1f0ee;
 }
 
 .display-question-container .display-votes-ans{
@@ -92,4 +92,41 @@
 
 .display-tags-time .display-time{
     font-size: 13px;
+}
+
+/*Making website responsive */
+@media screen and (max-width: 864px){
+    .main-bar{
+        width: 100%;
+    } 
+}
+@media screen and (max-width: 576px){
+    .main-bar{
+        width: 100%;
+    } 
+}
+@media screen and (max-width: 480px){
+    .main-bar{
+        width: 100%;
+        margin-left: -110px;
+    } 
+    .display-question-container{
+        width: 100%;
+        min-width: 440px;
+        
+    } 
+    .main-bar-header .ask-btn{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .main-bar{
+        width: 100%;
+        margin-left: -145px;
+        font-size: 10px;
+    }
+    .display-time{
+        font-size: 10px;
+    }
 }

@@ -3,16 +3,67 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="chatbot/css/chatbot.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />     
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="Web site created using create-react-app"
     />
-    
+
     <title>StackOverflow Clone</title>
   </head>
-  <body>
+  <body> 
+
+    <!-- CHAT BOT START -->
+    <div class="chatbot-collapse ">
+      <button id="chat-button" type="button" class="collapse-button"> Connect with us
+          <i id="chat-icon" style="color: #000;" class="fa fa-fw fa-comments-o"></i>
+      </button>
+
+      <div class="content">
+          <div class="full-chat-block">
+              <!-- MESSAGE CONTAINER -->
+              <div class="chabot-container-1">
+                  <div class="chat-container">
+                      <!-- MESSAGES -->
+                      <div id="chatbox">
+                          <h5 id="chat-msg-time"></h5>
+                          <p id="chatbot-message" class="botText"><span>Loading...</span></p>
+                      </div>
+
+                      <!-- USER INPUT BOX -->
+                      <div class="chat-bar-input-block">
+                          <div id="userInput">
+                              <input id="textInput" class="input-box" type="text" name="msg" placeholder="Type your message here...">
+                              <p></p>
+                          </div>
+
+                          <div class="chat-bar-icons">
+                              <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                                  onclick="sendButton()"></i>
+                          </div>
+                      </div>
+
+                      <div id="chatbot-bottom-side">
+                          <p style="color: rgb(255, 216, 196); "> Chat with NY-bot </p>
+                      </div>
+
+                  </div>
+              </div>
+
+          </div>
+    </div>
+
+    </div>
+
+    <!--CHAT BOT END-->
+
+    <script src="chatbot/css/scripts/chat.js" ></script>
+    <script src="chatbot/css/scripts/responses.js" ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
    

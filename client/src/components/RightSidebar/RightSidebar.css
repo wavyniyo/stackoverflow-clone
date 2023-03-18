@@ -70,3 +70,39 @@
     font-size: 13px;
     
 }
+
+@media screen and (max-width: 864px){
+    .right-sidebar{
+        display: none;
+    } 
+    .widget-tags{
+        display: none;
+    }   
+}
+
+@media screen and (max-width: 768px){
+    .right-sidebar{
+        display: none;
+    } 
+    .widget-tags{
+        display: none;
+    }   
+}
+
+@media screen and (max-width: 576px){
+    .right-sidebar{
+        display: none;
+    } 
+    .widget-tags{
+        display: none;
+    }   
+}
+
+@media screen and (max-width: 480px){
+    .right-sidebar{
+        display: none;
+    } 
+    .widget-tags{
+        display: none;
+    }   
+}

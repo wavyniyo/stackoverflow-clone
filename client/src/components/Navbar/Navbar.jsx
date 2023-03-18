@@ -42,6 +42,7 @@ const Navbar = () => {
             <Link to='/' className='nav-item nav-btn'>About</Link>
             <Link to='/' className='nav-item nav-btn'>Products</Link>
             <Link to='/' className='nav-item nav-btn'>For teams</Link>
+            <a href='https://upgradenow-stackoverflowclone.netlify.app/' className='nav-item nav-btn'>Upgrade Now</a>
 
             <form >
                 <input type="text" placeholder='Search...'/>
@@ -65,4 +66,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;

@@ -48,3 +48,76 @@
     border-right: solid 3px #ef8236;
 
 }
+
+.stackbtn{
+    background-color: #f7d9b8;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(69, 69, 69);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 13px; 
+    margin-left: 5px; 
+} 
+
+@media screen and (max-width: 1200px){
+    .left-sidebar{
+        width: 200px;
+    }
+    .stackbtn{
+        margin-left: 1px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .left-sidebar{
+        width: 150px;
+    }
+    .stackbtn{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .left-sidebar{
+        width: 60px;
+        font-size: 13px;
+    }
+    .stackbtn .icon{
+        font-size: 1em;
+        padding-left: -10px;
+    }
+    .side-nav-div p{
+        display: none;
+    }
+    .side-nav-links p{
+        display: none;
+    }
+    .side-nav-links .icon{
+        height: 50px;
+        width: 50px;
+        font-size: 2em;
+        line-height: 2;
+        margin-bottom: 1rem;
+        float: left;
+    }
+    .side-nav-links img{
+        height: 50px;
+        width: 30px;
+        line-height: 2;
+        margin-bottom: 1rem;
+        float: left;
+    }
+    .side-nav-div span{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .left-sidebar{
+        width: 40px;
+    }
+    .stackbtn{
+        padding: 5px 10px;  
+    }
+}

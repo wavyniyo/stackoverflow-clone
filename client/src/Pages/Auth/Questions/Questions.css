@@ -122,3 +122,27 @@
     line-height: 18px;
     white-space: pre-line;
 }
+
+/*For the responsive website */
+
+@media screen and (max-width: 864px){
+    .question-details-page{
+        width: 100%;
+    } 
+}
+@media screen and (max-width: 768px){
+    .question-details-page{
+        width: 100%;
+    } 
+}
+@media screen and (max-width: 576px){
+    .question-details-page{
+        width: 100%;
+    } 
+}
+@media screen and (max-width: 480px){
+    .question-details-page{
+        width: 100%; 
+        margin-left: -110px;     
+    } 
+}

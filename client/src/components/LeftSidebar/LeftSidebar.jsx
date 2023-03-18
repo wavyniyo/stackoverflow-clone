@@ -1,9 +1,10 @@
-import React from 'react'
-import './LeftSidebar.css'
-import { NavLink } from 'react-router-dom'
-import Globe from '../../assets/Globee.svg'
+import React from 'react' ;
+import './LeftSidebar.css' ;
+import { NavLink } from 'react-router-dom' ;
+import Globe from '../../assets/Globee.svg' ;
 
-
+import * as AiIcons from "react-icons/ai";
+import * as IoIcons from "react-icons/io";
 
 const LeftSidebar = () => {
   return (
@@ -21,12 +22,17 @@ const LeftSidebar = () => {
           </NavLink>
 
           <NavLink to='/Tags'  className='side-nav-links' activeClassName='active' style={{paddingLeft: "40px"}}>
+            <AiIcons.AiFillTag />
             <p>Tags</p>
           </NavLink>
 
           <NavLink to='/Users'  className='side-nav-links' activeClassName='active' style={{paddingLeft: "40px"}}>
+            <AiIcons.AiOutlineUser />
             <p>Users</p>
           </NavLink>
+          <br></br>
+          <p className='side-nav-links' activeClassName='active' style={{margin: "10.9px"}}> EXPLORE COMMUNITY </p>
+          <a href="https://client-stackoverflow-clone.netlify.app/" class="stackbtn"><i className='icon'> <IoIcons.IoMdPeople /> </i><span> Community </span></a>  
 
         </div>
 
@@ -36,4 +42,4 @@ const LeftSidebar = () => {
   )
 }
 
-export default LeftSidebar
+export default LeftSidebar ;

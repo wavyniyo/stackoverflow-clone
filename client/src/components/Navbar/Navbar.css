@@ -86,3 +86,45 @@
     background-color: #d3e4eb;
     
 }
+
+@media (max-width:992px){
+    .nav-links{
+        margin-left: 30px;
+    }
+}
+
+@media (max-width:864px){
+    .nav-links{
+        margin-left: 30px;
+    }
+}
+
+@media (max-width:576px){
+    .nav-btn{
+        display: none;
+    }
+}
+
+@media (max-width:480px){
+    .nav-btn{
+        display: none;
+    }
+    form{
+        display: none;
+    }
+    .nav-links{
+        font-size: 16px;
+    }
+    .nav-logo{
+        left: -15rem;
+    }
+}
+
+@media (max-width:360px){
+    form{
+        display: none;
+    }
+    .nav-links{
+        font-size: 13px;
+    }
+}
