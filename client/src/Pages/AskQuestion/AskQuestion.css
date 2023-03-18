@@ -54,7 +54,60 @@
     background-color: #0086d8;
 }
 
-@media screen and (max-width: 480px){
-    
+/* Styles for phones */
+@media only screen and (max-width: 767px) {
+    .ask-form-container label h4 {
+        font-size: 11px;
+    }
+    .ask-form-container label p {
+        font-size: 10px;
+    }
+    .ask-form-container label input, .ask-form-container label textarea {
+        padding: 8px;
+        font-size: 10px;
+    }
+    .review-btn {
+        margin: 30px 0px;
+        padding: 8px;
+        font-size: 16px;
+    }
+}
+
+/* Styles for tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .ask-form-container label h4 {
+        font-size: 24px;
+    }
+    .ask-form-container label p {
+        font-size: 14px;
+    }
+    .ask-form-container label input, .ask-form-container label textarea {
+        padding: 12px;
+        font-size: 16px;
+    }
+    .review-btn {
+        margin: 40px 0px;
+        padding: 12px;
+        font-size: 18px;
+    }
+}
+
+/* Styles for larger screens */
+@media only screen and (min-width: 1024px) {
+    .ask-form-container label h4 {
+        font-size: 28px;
+    }
+    .ask-form-container label p {
+        font-size: 16px;
+    }
+    .ask-form-container label input, .ask-form-container label textarea {
+        padding: 14px;
+        font-size: 18px;
+    }
+    .review-btn {
+        margin: 50px 0px;
+        padding: 14px;
+        font-size: 20px;
+    }
 }
 

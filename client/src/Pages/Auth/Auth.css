@@ -106,3 +106,41 @@ input.size{
 }
 
 
+/* For phones and small tablets */
+@media only screen and (max-width: 768px) {
+    .auth-section {
+      flex-direction: column;
+    }
+    
+    .auth-container-1 {
+      margin-right: 0px;
+      margin-bottom: 20px;
+    }
+    
+    .auth-container-2 {
+      min-width: 80%;
+    }
+    
+    .auth-container-2 form {
+      padding: 15px;
+    }
+    
+    .auth-container-2 form label:nth-child(4) input {
+      width: 30%;
+    }
+    
+    .auth-btn {
+      font-size: 12px;
+      padding: 8px 5px;
+    }
+    
+    .handle-switch-btn {
+      font-size: 12px;
+    }
+    
+    input.size {
+      height: 1.5ch;
+      width: 0.8ch;
+    }
+  }
+  

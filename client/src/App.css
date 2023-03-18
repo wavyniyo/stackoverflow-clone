@@ -19,3 +19,22 @@
 html, body{
     overflow-x: hidden;
 }
+
+/* For phones */
+@media screen and (max-width: 480px) {
+   
+    .home-container-2 {
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+  
+  /* For tablets */
+  @media screen and (min-width: 481px) and (max-width: 1024px) {
+  
+    .home-container-2 {
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+  

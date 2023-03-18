@@ -128,3 +128,65 @@
         font-size: 13px;
     }
 }
+
+/* styles for screens smaller than 768px */
+@media (max-width: 767px) {
+    .main-nav {
+      min-height: 40px;
+      padding: 0px 10px;
+    }
+    
+    .navbar {
+      min-width: 90%;
+      align-items: flex-start; 
+    }
+    
+    .nav-logo {
+      padding: 5px 0px;
+    }
+    
+    .nav-item {
+      margin: 5px 0px;
+      font-size: smaller;
+      text-align: center;
+    }
+    
+    .nav-btn {
+      padding: 8px 16px;
+      font-size: smaller;
+    }
+    
+    .navbar form {
+      padding: 0px;
+      margin-top: 10px;
+      align-self: stretch;
+    }
+    
+    .navbar form input {
+      min-width: 80%;
+      padding: 6px 10px;
+      font-size: smaller;
+    }
+    
+    .navbar form .search-icon {
+      top: 6px;
+    }
+    
+    .nav-links {
+      padding: 5px 10px;
+      font-size: smaller;
+    }
+  }
+  
+  /* styles for screens smaller than 1024px */
+  @media (max-width: 1023px) {
+    .nav-item {
+      font-size: smaller;
+    }
+    
+    .nav-btn {
+      padding: 8px 16px;
+      font-size: smaller;
+    }
+  }
+  

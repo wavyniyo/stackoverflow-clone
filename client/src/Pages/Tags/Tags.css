@@ -41,6 +41,40 @@
     .tags-h1,
     .tags-list-container{
         width: 100%;
-        margin-left: -100px;
     }
 }
+
+/* For phones */
+@media (max-width: 576px) {
+    .tags-list-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .tag h5 {
+      margin: 5px 0px;
+      font-size: 14px;
+    }
+  
+    .tag p {
+      font-size: 13px;
+      line-height: 16px;
+    }
+  }
+  
+  /* For tablets */
+  @media (min-width: 576px) and (max-width: 992px) {
+    .tags-list-container {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+  
+    .tag h5 {
+      margin: 7px 0px;
+      font-size: 15px;
+    }
+  
+    .tag p {
+      font-size: 14px;
+      line-height: 17px;
+    }
+  }
+  

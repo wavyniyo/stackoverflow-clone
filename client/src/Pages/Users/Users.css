@@ -22,3 +22,38 @@
 .user-profile-link h5{
     margin: 0px 10px;
 }
+
+/* For phones */
+@media (max-width: 480px) {
+    .user-list-container {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 20px;
+    }
+  
+    .user-profile-link h3 {
+      padding: 8px 10px;
+      font-size: 14px;
+    }
+  
+    .user-profile-link h5 {
+      font-size: 14px;
+    }
+  }
+  
+  /* For tablets */
+  @media (max-width: 768px) {
+    .user-list-container {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 30px;
+    }
+  
+    .user-profile-link h3 {
+      padding: 10px 13px;
+      font-size: 16px;
+    }
+  
+    .user-profile-link h5 {
+      font-size: 16px;
+    }
+  }
+  
