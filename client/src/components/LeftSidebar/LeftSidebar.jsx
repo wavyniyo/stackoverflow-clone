@@ -31,7 +31,7 @@ const LeftSidebar = () => {
             <p>Users</p>
           </NavLink>
           <br></br>
-          <p className='side-nav-links' activeClassName='active' style={{margin: "10.9px"}}> EXPLORE COMMUNITY </p>
+          <p className='side-nav-links' activeClassName='active' style={{margin: "10px"}}>EXPLORE COMMUNITY</p>
           <a href="https://client-stackoverflow-clone.netlify.app/" class="stackbtn"><i className='icon'> <IoIcons.IoMdPeople /> </i><span> Community </span></a>  
 
         </div>
