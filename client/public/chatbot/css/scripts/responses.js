@@ -18,7 +18,7 @@ function getBotResponse(input) {
         return "You're welcome! If you have any further questions or need more assistance, feel free to ask";
     }else if (input == "HTML") {
         return "Hypertext Markup Language";
-    }else if (input == "What is HTML") {
+    }else if (input == "What is html") {
         return "HTML stands for Hyper Text Markup Language. It is a language of World Wide Web. It is a standard text formatting language which is used to create and display pages on the Web.";
     } else if (input == "What are Tags") {
         return "HTML tags are composed of three things: an opening tag, content and ending tag.";
@@ -30,6 +30,10 @@ function getBotResponse(input) {
         return "HTML stands for Hyper Text Markup Language. It is a language of World Wide Web. It is a standard text formatting language which is used to create and display pages on the Web.";
     } else if (input == "What is CSS") {
         return "Casscading Style Sheet";
+    } else if (input == "What is python") {
+        return "Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured, object-oriented and functional programming.";
+    }else if (input == "What is java") {
+        return "Java is a platform-independent, object-oriented programming language (OOP). It is not to be confused with JavaScript, a scripting language used to create dynamic web pages. Due to its reliability and ease of use, Java is one of the most popular programming languages in the world. It's likely to be one of the first programming languages you encounter as an aspiring application developer.";
     } else if (input == "What is CSS frameworks") {
         return " CSSframeworks are libraries that make web page styling easier. Some of them are Foundation, Bootstrap, Gumby, Ukit, Semantic UI, etc. ";
     } else if (input == "How can CSS be integrated into an HTML page?") {
@@ -52,19 +56,15 @@ function getBotResponse(input) {
         return "Redux is an open-source, JavaScript library used to manage the application state. React uses Redux to build the user interface. It is a predictable state container for JavaScript applications and is used for the entire application’s state management.";
     }  else if (input == "What is React Router?") {
         return "React Router is a routing library built on top of React, which is used to create routes in a React application.";
-    }  else if (input == "What is Python programming") {
-        return "Python is a multi-paradigm, dynamically typed, multipurpose programming language. It is designed to be quick to learn, understand, and use, and enforces a clean and uniform syntax.";
-    } else if (input == "What is C programming") {
+    } else if (input == "What is C ") {
         return "C# (pronounced 'see sharp') is a high level, statically typed, multi-paradigm programming language developed by Microsoft";
-    } else if (input == "What is C++ programming") {
+    } else if (input == "What is C++") {
         return "C# (pronounced 'see sharp') is a high level, statically typed, multi-paradigm programming language developed by Microsoft";
     }else if (input == "What is Java programming") {
         return "Java is a high-level object oriented programming language. Use this tag when you're having problems using or understanding the language itself.";
     }  else if (input == "What is php") {
-        return "PHP is a widely used, open source, general-purpose, multi-paradigm, dynamically typed and interpreted scripting language originally designed for server-side web development";
-    }  else if (input == "android") {
-        return "Android is Google's mobile operating system, used for programming or developing digital devices (Smartphones, Tablets, Automobiles, TVs, Wear, Glass, IoT).";
-    }  else if (input == "node.js") {
+        return "PHP is a widely used, open source, general-purpose, multi-paradigm, dynamically typed and interpreted scripting language originally designed for server-side web development";  
+    }  else if (input == "What is node.js") {
         return "Node.js is an event-based, non-blocking, asynchronous I/O runtime that uses Google's V8 JavaScript engine and libuv library.";
     } else if (input == "What is MERN stack") {
         return "MERN stack is popular web development stack that is widely used for building modern web applications. MERN stands for:MONDODB,EXPRESSJS,REACTJS,NODEJS" ;
