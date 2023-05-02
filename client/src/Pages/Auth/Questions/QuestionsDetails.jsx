@@ -77,7 +77,7 @@ const QuestionsDetails = () => {
   const dispatch= useDispatch();
   const User = useSelector((state) =>(state.currentUserReducer) );
   const location =useLocation();
-  const url ='https://client-stackoverflowclone.netlify.app' ;
+  const url ='https://stackoverflow-clonee.netlify.app' ;
 
   const handlePostAns = (e,answerLength) =>  {
       e.preventDefault();
