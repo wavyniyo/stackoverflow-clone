@@ -30,10 +30,7 @@ const LeftSidebar = () => {
             <AiIcons.AiOutlineUser />
             <p>Users</p>
           </NavLink>
-          <br></br>
-          <p className='side-nav-links' activeClassName='active' style={{margin: "9px"}}> Explore Community </p>
-          <a href="https://client-stackoverflow-clone.netlify.app/" class="stackbtn"><i className='icon'> <IoIcons.IoMdPeople /> </i><span> Community </span></a>  
-
+          <br></br> 
         </div>
 
       </nav>

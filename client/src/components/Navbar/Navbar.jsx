@@ -3,7 +3,7 @@ import { Link,useNavigate} from 'react-router-dom' ;
 import { useSelector, useDispatch} from 'react-redux' ;
 import decode from 'jwt-decode' ;
 
-import logo from '../../assets/logoo.png' ;
+import logo from '../../assets/askify1.jpg' ;
 import search from '../../assets/magnifying-glass-solid.svg' ;
 import Avatar from '../../components/Avatar/Avatar' ;
 import './Navbar.css' ;
